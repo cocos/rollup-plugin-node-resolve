@@ -9,7 +9,10 @@ function isModuleDir(current: string, moduleDirs: readonly string[]) {
 }
 
 export async function findPackageJson(base: string, moduleDirs: readonly string[]) {
-  const { root } = path.parse(base);
+  let { root } = path.parse(base);
+  if (!root) {
+    root = process.cwd();
+  }
   let current = base;
 
   while (current !== root && !isModuleDir(current, moduleDirs)) {
