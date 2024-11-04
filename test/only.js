@@ -3,7 +3,7 @@ const { join, resolve } = require('path');
 const test = require('ava');
 const { rollup } = require('rollup');
 
-const { getImports, getResolvedModules } = require('../../../util/test');
+const { getImports, getResolvedModules } = require('../util/test');
 
 const { nodeResolve } = require('..');
 

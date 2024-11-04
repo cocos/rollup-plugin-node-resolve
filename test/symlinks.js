@@ -4,7 +4,7 @@ const { join } = require('path');
 const test = require('ava');
 const { rollup } = require('rollup');
 
-const { testBundle } = require('../../../util/test');
+const { testBundle } = require('../util/test');
 
 const { nodeResolve } = require('..');
 

@@ -8,7 +8,7 @@ import { rollup } from 'rollup';
 
 import { nodeResolve, DEFAULTS } from 'current-package';
 
-import { evaluateBundle, getCode, getImports, testBundle } from '../../../util/test.js';
+import { evaluateBundle, getCode, getImports, testBundle } from '../util/test.js';
 
 const DIRNAME = fileURLToPath(new URL('.', import.meta.url));
 process.chdir(join(DIRNAME, 'fixtures'));
