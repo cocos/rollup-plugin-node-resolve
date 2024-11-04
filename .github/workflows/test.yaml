@@ -15,8 +15,8 @@ jobs:
           node-version: '18.17.0'
 
       - run: |
-        node --version
-        npm --version
-        npm ci
-        npm run build
-        npm test
+          node --version
+          npm --version
+          npm ci
+          npm run build
+          npm test
