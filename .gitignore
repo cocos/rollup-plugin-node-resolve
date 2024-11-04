@@ -11,5 +11,5 @@ coverage.lcov
 .idea
 .rollup.cache
 
-!./*/test/**/node_modules
-!./test/fixtures/**/node_modules
+!test/**/node_modules
+!test/fixtures/**/node_modules
