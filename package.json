@@ -1,5 +1,5 @@
 {
-  "name": "@rollup/plugin-node-resolve",
+  "name": "@cocos/rollup-plugin-node-resolve",
   "version": "15.3.0",
   "publishConfig": {
     "access": "public"
